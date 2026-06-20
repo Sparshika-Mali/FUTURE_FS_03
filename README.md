@@ -104,19 +104,8 @@ Start the Vite development server:
 ```bash
 npm run dev
 ```
+ React app will typically run on `http://localhost:5173`.
 
-Your React app will typically run on `http://localhost:5173`.
-
----
-
-## 📡 API Endpoints
-
-### Enquiries
-* **`POST /api/enquiries`** - Submit a new contact form enquiry.
-  * **Payload:** `{ fullName, mobile, interest, model, message }`
-* **`GET /api/enquiries`** - Fetch all submitted enquiries (sorted by date).
-
----
 
 
 
