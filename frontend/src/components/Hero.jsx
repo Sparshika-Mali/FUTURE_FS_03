@@ -5,7 +5,8 @@ const Hero = () => {
     <section id="home" style={{
       minHeight: '100vh', display: 'flex', alignItems: 'center',
       paddingTop: '80px', paddingBottom: 0,
-      background: 'radial-gradient(circle at 80% 50%, #151515 0%, var(--bg-base) 60%)'
+      background: 'radial-gradient(circle at 80% 50%, #151515 0%, var(--bg-base) 60%)',
+      overflow: 'hidden'
     }}>
       <style>{`
         #home::after {
