@@ -118,14 +118,5 @@ Your React app will typically run on `http://localhost:5173`.
 
 ---
 
-## 📸 Screenshots
 
-*(Add screenshots of your application here)*
-* `hero-section.png`
-* `bike-filtering.png`
-* `contact-form.png`
 
----
-
-## 👤 Author
-Developed by the Adarsh Automobiles Development Team.
