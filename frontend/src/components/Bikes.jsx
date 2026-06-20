@@ -60,7 +60,7 @@ const Bikes = () => {
           ))}
         </div>
 
-        <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fill, minmax(360px, 1fr))', gap: '40px' }}>
+        <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fill, minmax(280px, 1fr))', gap: '24px' }}>
           {bikesData.map((bike, i) => (
             <div key={bike.name} className={`reveal ${filter === 'all' || bike.type === filter ? 'active' : ''}`} style={{
               display: filter === 'all' || bike.type === filter ? 'flex' : 'none',
@@ -76,11 +76,11 @@ const Bikes = () => {
               e.currentTarget.style.borderColor = 'var(--glass-border)';
               e.currentTarget.style.boxShadow = 'none';
             }}>
-              <div style={{ height: '280px', display: 'flex', alignItems: 'center', justifyContent: 'center', position: 'relative', background: '#000' }}>
-                <span style={{ position: 'absolute', top: '24px', left: '24px', background: 'var(--accent)', color: '#fff', padding: '6px 16px', borderRadius: '6px', fontSize: '0.8rem', fontWeight: 700, textTransform: 'uppercase', letterSpacing: '1px', zIndex: 10 }}>{bike.type}</span>
+              <div style={{ height: '200px', display: 'flex', alignItems: 'center', justifyContent: 'center', position: 'relative', background: '#000' }}>
+                <span style={{ position: 'absolute', top: '16px', left: '16px', background: 'var(--accent)', color: '#fff', padding: '4px 12px', borderRadius: '6px', fontSize: '0.75rem', fontWeight: 700, textTransform: 'uppercase', letterSpacing: '1px', zIndex: 10 }}>{bike.type}</span>
                 <img src={bike.image} alt={bike.name} style={{ width: '100%', height: '100%', objectFit: 'cover', opacity: 0.85 }} />
               </div>
-              <div style={{ padding: '32px', display: 'flex', flexDirection: 'column', flex: 1 }}>
+              <div style={{ padding: '24px', display: 'flex', flexDirection: 'column', flex: 1 }}>
                 <h3 className="font-heading" style={{ fontSize: '2.5rem', marginBottom: '8px', color: '#fff' }}>{bike.name}</h3>
                 <p style={{ color: 'var(--text-muted)', fontSize: '1rem', marginBottom: '24px' }}>{bike.meta}</p>
                 <div style={{ display: 'flex', gap: '12px', marginBottom: '32px', flexWrap: 'wrap' }}>

@@ -34,7 +34,7 @@
 }
 
 * { margin: 0; padding: 0; box-sizing: border-box; }
-html { scroll-behavior: smooth; font-size: 16px; background-color: var(--bg-base); }
+html { scroll-behavior: smooth; font-size: 13px; background-color: var(--bg-base); }
 body {
   font-family: var(--font-body);
   background-color: var(--bg-base);
